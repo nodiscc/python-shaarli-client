@@ -253,6 +253,8 @@ class ShaarliV1Client:
 
         endpoint_uri = '%s/api/v%d/%s' % (self.uri, self.version, endpoint)
 
+        if args.insecure..........
+
         if method == 'GET':
             return requests.request(
                 method,
