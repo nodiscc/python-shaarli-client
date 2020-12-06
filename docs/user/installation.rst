@@ -31,7 +31,7 @@ Here is an example using a Python 3.7 interpreter:
   $ pip freeze
   PyJWT==1.4.2
   requests==2.25.0
-  requests-jwt==0.4
+  requests-jwt==0.5.3
   shaarli-client==0.1.0
 
 From the source code
@@ -55,6 +55,6 @@ To get ``shaarli-client`` sources and install it in a new `virtualenv`_:
   # check which packages have been installed
   $ pip freeze
   PyJWT==1.4.2
-  requests==2.13.0
-  requests-jwt==0.4
+  requests==2.25.0
+  requests-jwt==0.5.3
   shaarli-client==0.1.0
