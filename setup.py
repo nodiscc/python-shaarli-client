@@ -40,7 +40,7 @@ setup(
         ],
     },
     install_requires=[
-        'requests >= 2.10',
+        'requests >= 2.25',
         'requests-jwt >= 0.4, < 0.5'
     ],
     classifiers=[

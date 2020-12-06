@@ -30,7 +30,7 @@ Here is an example using a Python 3.5 interpreter:
   # check which packages have been installed
   $ pip freeze
   PyJWT==1.4.2
-  requests==2.13.0
+  requests==2.25.0
   requests-jwt==0.4
   shaarli-client==0.1.0
 
