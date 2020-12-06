@@ -14,7 +14,7 @@ you might want to use a wrapper such as `virtualenvwrapper`_ or `pew`_ for conve
 .. _virtualenvwrapper: https://virtualenvwrapper.readthedocs.io/en/latest/
 .. _pew: https://github.com/berdario/pew
 
-Here is an example using a Python 3.5 interpreter:
+Here is an example using a Python 3.7 interpreter:
 
 .. code-block:: bash
 
