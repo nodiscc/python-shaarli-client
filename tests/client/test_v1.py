@@ -127,7 +127,7 @@ def test_get_info_uri(request):
 
 @pytest.mark.parametrize('uri, klass, msg', [
     ('shaarli', MissingSchema, "No schema supplied"),
-    ('http:/shaarli', MissingSchema, "No schema supplied"),
+    ('http:/shaarli', InvalidURL, "No schema supplied"),
     ('htp://shaarli', InvalidSchema, "No connection adapters"),
 ])
 def test_get_info_invalid_uri(uri, klass, msg):
