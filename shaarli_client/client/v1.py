@@ -267,7 +267,7 @@ class ShaarliV1Client:
         """Send a parameterized request to this instance"""
         verify_certs = False if args.insecure else True
         return self._request(* self._retrieve_http_params(args),
-                             verify_certs=True)
+                             verify_certs)
 
     def get_info(self):
         """Get information about this instance"""

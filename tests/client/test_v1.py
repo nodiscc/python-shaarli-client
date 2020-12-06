@@ -120,6 +120,7 @@ def test_get_info_uri(request):
         'GET',
         '%s/api/v1/info' % SHAARLI_URL,
         auth=mock.ANY,
+        verify=True,
         params={}
     )
 
@@ -145,6 +146,7 @@ def test_get_links_uri(request):
         'GET',
         '%s/api/v1/links' % SHAARLI_URL,
         auth=mock.ANY,
+        verify=True,
         params={}
     )
 
@@ -287,6 +289,7 @@ def test_get_tags_uri(request):
         'GET',
         '%s/api/v1/tags' % SHAARLI_URL,
         auth=mock.ANY,
+        verify=True,
         params={}
     )
 
