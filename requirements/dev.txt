@@ -1,4 +1,4 @@
 -r docs.txt
 -r tests.txt
-tox==3.20.1
-twine==3.2.0
+tox==3.0.0
+twine==1.11.0
