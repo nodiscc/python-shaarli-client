@@ -1,4 +1,9 @@
-all: clean dist
+all: tests clean dist
+
+tests:
+	tox
+.PHONY: tests
+
 
 clean:
 	@rm -rf build dist
